@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Navbar  */
+.navbar{
+    background-color: black;
+}
+.navbar ul{
+    margin-left: 50px;
+    padding: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    margin: auto;
+    color: lightgrey;
+    font-size: 16px;
+}
+a .active{
+    font-size: 18px;
+    color: cadetblue;
+}
+
+
+/* Content Section  */
+.content-section{
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    display: block;
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+}
+/* Content Section - Heading */
+.heading{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.heading h1{
+    font-weight: 400;
+    display:inline;
+}
+.heading span{
+    font-size: 22px;
+    margin: 4px;
+    color: grey;
+}
+
+/* Content Section - Project  */
+.projects{
+    width: 97%;
+    margin:0px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+    gap:30px
+}
+.project img{
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 20px; */
+}
+.project .project-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color:#48a7cf;
+
+}
+footer{
+    clear: both;
+    margin-left: 20px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    padding-bottom: 30px;
+
+}
